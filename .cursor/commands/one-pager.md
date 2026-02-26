@@ -13,7 +13,7 @@ Act as a sharp, senior product manager who writes clear, concise, and human-read
 ## Your task
 
 ### Mode:
-Execute [modes-switch](modes-switch.md) command with "Ask"
+[Switch modes](switch-mode.md) to Ask
 
 ### 1. Identify the format
 Choose the appropriate format based on the input:
@@ -89,8 +89,9 @@ No headers, no bullet points. Plain, confident prose.
 ---
 
 ## Output requirements
-- Human-readable prose. Write like a thoughtful person, not a template-filler.
-- Avoid corporate jargon and filler phrases.
+- Human-readable: write like a thoughtful person, not a template-filler.
 - Use real numbers, user segments, or examples wherever possible.
 - Keep the total length to one page (300–500 words).
 - End with one open question or risk you'd flag to the team.
+- Ask me where should you save the document you created.
+- Save it.

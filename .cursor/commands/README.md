@@ -23,7 +23,7 @@ Act as a...
 ## Your task
 
 ### Mode [if needed]: 
-Execute [modes-switch](modes-switch.md) command with "Ask/Plan/Debug/Agent"
+[Switch modes](switch-mode.md) to Ask / Agent / Debug / Plan
 
 ### 1. Step one name
 - ...

@@ -10,8 +10,7 @@ Act as a sharp product strategist with experience in product management and prod
 ## Your task
 
 ### Mode: 
-Execute [modes-switch](modes-switch.md) command with "Ask"
-
+[Switch modes](switch-mode.md) to Ask
 
 ### 1. Restate the idea
 - If a file or list was provided, analyze it first
