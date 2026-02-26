@@ -2,11 +2,13 @@
 
 | Command | Description | Input |
 |---------|-------------|-------|
-| `/explore-design` | Brainstorm solutions and alternatives for a feature before any implementation. Surfaces questions, ambiguities, and competing approaches. | Optional: a file describing the feature or a list of competitors to consider. |
-| `/explore-code` | Analyze the existing codebase to understand how a feature fits in — dependencies, structure, edge cases, constraints. No implementation. | None. Operates on the current codebase and conversation context. |
+| `/explore` | Brainstorm solutions and alternatives for a feature before any implementation. Surfaces questions, ambiguities, and competing approaches. | Optional: a file describing the feature or a list of competitors to consider. |
 
 
-# Command template
+<details>
+<summary><strong>New command template</strong></summary>
+
+# Command name
 
 ## Persona
 Act as a... 
@@ -16,6 +18,9 @@ Act as a...
 **Optional:** ...
 
 ## Your task
+
+### Mode [if needed]: 
+Switch to **Ask mode** before proceeding. Do not make any edits. 
 
 ### 1. Step one name
 - ...
@@ -31,3 +36,5 @@ Act as a...
 
 ## Output
 ...
+
+</details>
