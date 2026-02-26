@@ -4,6 +4,10 @@
 |---------|------|-------------|-------|
 | `/explore` | Ask | Product discovery for a feature idea — restates the concept, validates the problem, maps 5-7 competitors, and surfaces risks before you build anything. | **Required:** a product idea or feature description. **Optional:** competitors list, image, PRD or other file. |
 
+## How to create a good command?
+- Roughly not more than 3000 characters (including spaces and formatting)
+- 
+
 <details>
 <summary><strong>New command template</strong></summary>
 
@@ -19,7 +23,7 @@ Act as a...
 ## Your task
 
 ### Mode [if needed]: 
-Switch to **Ask mode** before proceeding. Do not make any edits. 
+Execute [modes-switch](modes-switch.md) command with "Ask/Plan/Debug/Agent"
 
 ### 1. Step one name
 - ...
