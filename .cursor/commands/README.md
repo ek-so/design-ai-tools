@@ -1,0 +1,6 @@
+# Commands glossary
+
+| Command | Description | Input |
+|---------|-------------|-------|
+| `/explore-design` | Brainstorm solutions and alternatives for a feature before any implementation. Surfaces questions, ambiguities, and competing approaches. | Optional: a file describing the feature or a list of competitors to consider. |
+| `/explore-code` | Analyze the existing codebase to understand how a feature fits in — dependencies, structure, edge cases, constraints. No implementation. | None. Operates on the current codebase and conversation context. |
