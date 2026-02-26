@@ -1,9 +1,8 @@
 # Commands glossary
 
-| Command | Description | Input |
-|---------|-------------|-------|
-| `/explore` | Brainstorm solutions and alternatives for a feature before any implementation. Surfaces questions, ambiguities, and competing approaches. | Optional: a file describing the feature or a list of competitors to consider. |
-
+| Command | Mode | Description | Input |
+|---------|------|-------------|-------|
+| `/explore` | Ask | Product discovery for a feature idea — restates the concept, validates the problem, maps 5-7 competitors, and surfaces risks before you build anything. | **Required:** a product idea or feature description. **Optional:** competitors list, image, PRD or other file. |
 
 <details>
 <summary><strong>New command template</strong></summary>
