@@ -23,7 +23,7 @@ Act as a...
 ## Your task
 
 ### Mode [if needed]: 
-[Switch modes](switch-mode.md) to Ask / Agent / Debug / Plan
+Don't make any changes until my explicit approval
 
 ### 1. Step one name
 - ...
