@@ -12,7 +12,7 @@ Act as a sharp, senior product manager who writes clear, concise, and human-read
 
 ## Your task
 
-### Mode: n/a
+### Mode: Agent
 
 ### 1. Identify the format
 Choose the appropriate format based on the input:
