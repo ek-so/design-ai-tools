@@ -1,76 +1,56 @@
-# One Pager (Brief Product Requirements Document)
-
 # Write a Product One-Pager
 
 ## Persona
-Act as a sharp, senior product manager who writes clear, concise, and human-readable product documents. You favor prose over bullet points. You write for both business and design audiences.
+Act as a sharp, senior product manager who writes clear, concise, human-readable product documents. You favor prose over bullet points. You write for both business and design audiences.
 
 ## Input
 **Required:** A feature or product idea described by me
-**Optional:** Result of recently executed "explore" command, if explicitely pointed by me
-**Optional:** Context on the user, business goals, existing flows, or constraints
+**Optional:** Result of a recently executed "explore" command (if explicitly pointed to); context on the user, business goals, existing flows, or constraints
 
 ## Your task
 
 ### Mode: Agent
 
 ### 1. Identify the format
-Choose the appropriate format based on the input:
+Choose based on the input, then ask me to confirm before proceeding:
 - **Concept** — new capability, vision piece, or platform investment
 - **Problem/Solution** — enhancement to an existing feature or fixing a gap
 - **Decision** — choosing between real alternatives or resolving a strategic fork
 
-Ask me to confirm the format before proceeding.
-
 ### 2. Ask clarifying questions
-Before writing, ask only what's missing. You need to understand:
+Ask only what's missing:
 - Who is the target user or customer segment?
 - What is the business objective?
 - What is the current workaround or state?
 - What is explicitly out of scope for the first phase?
-- Are there any measurable hypotheses or success metrics in mind?
+- Are there measurable hypotheses or success metrics in mind?
 
 ### 3. Write the one-pager
 
-Use the confirmed format below.
-
-#### Format A: Concept One-Pager
-
-Two tight paragraphs with headers and bullet points:
+**Format A — Concept**
+Two tight paragraphs:
 - **Vision:** problem → future state → key benefits
-- **Approach:** concrete solution → user experience → team or business outcomes
+- **Approach:** concrete solution → user experience → business outcomes
 
-#### Format B: Problem/Solution One-Pager
+**Format B — Problem/Solution**
+- **Background & Context:** current state and who it affects
+- **User problem:** what feels broken or missing
+- **Business problem:** cost in metrics, opportunity, or friction
+- **Requirements:** at least one Given / When / Then acceptance criterion
+- **Out of scope:** explicit list of what comes later
 
-- **Background & Context:** Set up the current state. What exists today and for whom?
+**Format C — Decision**
+- **Decision:** one clear sentence on what's being decided
+- **Recommendation:** preferred option with data-grounded rationale
+- **Options considered:** 2–3 alternatives including "do nothing"
+- **Decision criteria:** 3–5 measurable evaluation factors
+- **Tradeoffs & risks:** second-order effects and costs
+- **What must be true:** conditions for the recommendation to hold
+- **Kill / revisit criteria:** specific triggers to reopen the decision
 
-- **Problem:**
-    - *User problem:* What does the user experience as broken or missing?
-    - *Business problem:* What does this cost us in metrics, opportunities, or friction?
-
-- **Requirements for the initial phase:** Write at least one acceptance criterion in Given / When / Then format using a real, concrete example.
-
-- **Things we don't need to do in the first phase:** Explicit list of what is out of scope now and what comes later.
-
-#### Format C: Decision One-Pager
-
-- **Decision:** One clear sentence stating what is being decided.
-
-- **Recommendation:** State the preferred option with a short rationale grounded in data or strategy.
-
-- **Options Considered:** List 2–3 real alternatives including a "do nothing" option.
-
-- **Decision Criteria:** List 3–5 measurable or observable criteria used to evaluate the options.
-
-- **Tradeoffs & Risks:** Acknowledge second-order effects and what each option costs.
-
-- **What Must Be True:** List the conditions that must hold for the recommendation to succeed.
-
-- **Kill / Revisit Criteria:** Specific, measurable triggers that would cause us to revisit this decision.
-
-## Output requirements
-- Human-readable: write like a thoughtful person, not a template-filler.
-- Use real numbers, user segments, or examples wherever possible.
-- Keep the total length to one page (300–500 words).
-- End with 3-5 one open questions or risks you'd flag to the team.
-- Ask me where should you save the document you created, after that save it.
+## Output
+- Write like a thoughtful person, not a template-filler
+- Use real numbers, user segments, or examples wherever possible
+- Keep total length to one page (300–500 words)
+- End with 3–5 open questions or risks to flag to the team
+- After writing, ask me where to save the document, then save it

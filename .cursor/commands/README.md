@@ -5,7 +5,7 @@
 | `/explore` | Ask | Product discovery for a feature idea — restates the concept, validates the problem, maps 5-7 competitors, and surfaces risks before you build anything. | **Required:** a product idea or feature description. **Optional:** competitors list, image, PRD or other file. |
 
 ## How to create a good command?
-- Roughly not more than 3000 characters (including spaces and formatting)
+- 2500 characters max (including spaces and formatting)
 - 
 
 <details>
@@ -22,8 +22,9 @@ Act as a...
 
 ## Your task
 
-### Mode [if needed]: 
-Don't make any changes until my explicit approval
+### Mode: Ask / Agent / Plan / Debug
+E.g. Don't make any changes until my explicit approval
+(in the future might be useful to switch modes, when this is available in Cursor)
 
 ### 1. Step one name
 - ...
