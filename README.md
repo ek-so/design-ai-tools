@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/cover.png" alt="design-ai-tools cover" width="100%" />
+</p>
+
 # design-ai-tools
 
 A ready-made `.cursor/` setup for product designers and PMs who build with Cursor. Commands, rules, and skills — clone the repo, copy the folder, start using.
@@ -15,12 +19,6 @@ Commands are designed as a **pipeline** — each step feeds into the next, takin
 ```
 
 Every predecessor is optional input, so each command also works standalone. The only hard dependency is `/code-execute`, which requires a plan from `/code-plan`.
-
-**Product commands:** `/explore`, `/one-pager`, `/critique`
-
-**Code commands:** `/code-explore`, `/code-plan`, `/code-execute`, `/code-review`, `/code-review-peer`, `/document`
-
-**Standalone:** `/code-explain` (learning)
 
 ### Agents (`.cursor/agents/`)
 
