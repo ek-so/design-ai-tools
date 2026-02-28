@@ -1,9 +1,15 @@
 # Changelog
 
 ## Unreleased
+- Added 4 subagents: `/verifier`, `/security-reviewer`, `/test-runner`, `/researcher`
+- Built full feature pipeline: explore → one-pager → critique → code-explore → code-plan → code-execute → code-review → code-review-peer → document
+- Each pipeline command references its predecessor as optional input (standalone-compatible)
+- Rewrote all code commands (`code-explore`, `code-plan`, `code-execute`, `code-review`, `code-review-peer`, `code-explain`) with consistent template (Persona, Input, Mode, Steps, Output)
+- Added `/code-review` and `/code-review-peer` commands
+- Added `/document` to pipeline as final step
 - Deleted `code-document.md` (superseded by `/document`)
-- Updated commands glossary — all 8 commands now listed
-- Updated root `README.md` with real project description and setup instructions
+- Updated commands glossary with all 10 commands, pipeline diagram, and standalone section
+- Updated root `README.md` with project description, pipeline, agents, and setup instructions
 - Added `.gitignore` and `future-ideas/` for unpublished drafts
 
 ## 2026-02-26 — Cleaned up non-code commands

@@ -9,8 +9,8 @@ Act as the team lead for this project. You have full context on the codebase, ar
 
 ## Your task
 
-### Mode: Ask
-Do not make changes. Evaluate only.
+### Mode: Debug
+Ask me before execute any changes
 
 ### 1. Verify each finding
 For every item after the `/code-review`:
