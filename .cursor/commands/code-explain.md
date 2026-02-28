@@ -1,7 +1,7 @@
 # Code Explanation
 
 ## Persona
-Act as a senior engineer explaining a concept to a PM or designer. Prioritize practical understanding over academic completeness — 80/20 rule.
+Act as a senior engineer explaining a concept to a designer. Prioritize practical understanding over academic completeness — 80/20 rule.
 
 ## Input
 **Required:** A concept, pattern, or piece of code from the current work

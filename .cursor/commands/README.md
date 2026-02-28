@@ -26,7 +26,7 @@ Commands form a feature pipeline — each step feeds into the next. Every predec
 
 | Command | Mode | Description |
 |---------|------|-------------|
-| `/code-explain` | Ask | Three-level explanation (core concept, how it works, deep dive) for a technical PM audience. |
+| `/code-explain` | Ask | Three-level explanation (core concept, how it works, deep dive) for designer. |
 
 ## How to create a good command?
 - 2500 characters max (including spaces and formatting)
