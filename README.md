@@ -17,19 +17,16 @@ Commands are designed as a **pipeline** — each step feeds into the next, takin
 Every predecessor is optional input, so each command also works standalone. The only hard dependency is `/code-execute`, which requires a plan from `/code-plan`.
 
 **Product commands:** `/explore`, `/one-pager`, `/critique`
+
 **Code commands:** `/code-explore`, `/code-plan`, `/code-execute`, `/code-review`, `/code-review-peer`, `/document`
+
 **Standalone:** `/code-explain` (learning)
 
 ### Agents (`.cursor/agents/`)
 
-Specialized subagents that run in parallel or get auto-delegated by the parent agent. They handle context-heavy work without bloating your main conversation.
+Specialized subagents that run in parallel or get auto-delegated by the parent agent. See the [full glossary](.cursor/agents/README.md).
 
-| Agent | Triggers on |
-|-------|------------|
-| `/verifier` | After tasks marked done — validates implementations actually work |
-| `/security-reviewer` | Proactively on auth, payments, API endpoints, user data |
-| `/test-runner` | Proactively after code changes — runs tests and fixes failures |
-| `/researcher` | During feature exploration or competitive analysis |
+`/verifier`, `/security-reviewer`, `/test-runner`, `/researcher`
 
 ### Rules (`.cursor/rules/`)
 Persistent AI guidelines applied automatically. Currently includes a general tone rule (be direct, push back, cite sources).
