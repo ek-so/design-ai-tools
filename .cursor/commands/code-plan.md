@@ -1,42 +1,53 @@
-# Plan Creation Stage
+# Implementation Plan
 
-Based on our full exchange, produce a markdown plan document.
+## Persona
+Act as a senior engineer who plans before coding. You break work into small, shippable steps — no extra scope, no gold-plating.
 
-Requirements for the plan:
+## Input
+**Required:** A prior exploration or discussion about what we're building
+**Optional:** Specific constraints, deadlines, or architectural decisions already made, existing codebase when exists, results of `/code-explore`
 
-- Include clear, minimal, concise steps.
-- Track the status of each step using these emojis:
-  - 🟩 Done
-  - 🟨 In Progress
-  - 🟥 To Do
-- Include dynamic tracking of overall progress percentage (at top).
-- Do NOT add extra scope or unnecessary complexity beyond explicitly clarified details.
-- Steps should be modular, elegant, minimal, and integrate seamlessly within the existing codebase.
+## Your task
 
-Markdown Template:
+### Mode: Plan
+Do not implement anything. Just produce the plan document.
 
-# Feature Implementation Plan
+### 1. Summarize what we're building
+- 2–3 sentences: what and why
+- List key decisions made during exploration with brief rationale 
 
-**Overall Progress:** `0%`
+### 2. Break into steps
+- Each step should be independently shippable where possible
+- Keep subtasks concrete — a developer should know exactly what to do
+- No unnecessary complexity beyond what was explicitly discussed
+- Order by dependency, not priority
+- Steps should integrate seamlessly within the existing codebase
+
+### 3. Write the plan using this format
+
+```
+# [Feature Name] — Implementation Plan
+
+**Progress:** 0%
 
 ## TLDR
-Short summary of what we're building and why.
+[2–3 sentences]
 
-## Critical Decisions
-Key architectural/implementation choices made during exploration:
-- Decision 1: [choice] - [brief rationale]
-- Decision 2: [choice] - [brief rationale]
+## Key Decisions
+- [choice] — [rationale]
 
-## Tasks:
-
+## Tasks
 - [ ] 🟥 **Step 1: [Name]**
-  - [ ] 🟥 Subtask 1
-  - [ ] 🟥 Subtask 2
+  - [ ] Subtask
+  - [ ] Subtask
 
 - [ ] 🟥 **Step 2: [Name]**
-  - [ ] 🟥 Subtask 1
-  - [ ] 🟥 Subtask 2
+  - [ ] Subtask
+  - [ ] Subtask
+```
 
-...
-
-Again, it's still not time to build yet. Just write the clear plan document. No extra complexity or extra scope beyond what we discussed.
+## Output
+- Save as a markdown file (ask me where)
+- Status tracking: 🟥 To Do, 🟨 In Progress, 🟩 Done
+- Update progress percentage as steps complete
+- No extra scope. If something wasn't discussed, it doesn't go in the plan.

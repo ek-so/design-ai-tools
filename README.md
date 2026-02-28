@@ -5,10 +5,20 @@ A ready-made `.cursor/` setup for product designers and PMs who build with Curso
 ## What's inside
 
 ### Commands (`.cursor/commands/`)
-Reusable AI workflows you invoke with `/command-name` in Cursor's chat. See the [commands glossary](.cursor/commands/README.md) for the full list.
 
-**Product commands:** `/explore`, `/critique`, `/one-pager`, `/document`
-**Code commands:** `/code-explore`, `/code-plan`, `/code-execute`, `/code-explain`
+Reusable AI workflows you invoke with `/command-name` in Cursor's chat. See the [full glossary](.cursor/commands/README.md).
+
+Commands are designed as a **pipeline** — each step feeds into the next, taking you from idea to shipped, reviewed code:
+
+```
+/explore → /one-pager → /critique → /code-explore → /code-plan → /code-execute → /code-review → /code-review-peer
+```
+
+Every predecessor is optional input, so each command also works standalone. The only hard dependency is `/code-execute`, which requires a plan from `/code-plan`.
+
+**Product commands:** `/explore`, `/one-pager`, `/critique`
+**Code commands:** `/code-explore`, `/code-plan`, `/code-execute`, `/code-review`, `/code-review-peer`
+**Standalone:** `/code-explain` (learning), `/document` (docs update)
 
 ### Rules (`.cursor/rules/`)
 Persistent AI guidelines applied automatically. Currently includes a general tone rule (be direct, push back, cite sources).
@@ -21,3 +31,4 @@ Specialized agent capabilities. Work in progress.
 1. Clone or download this repo
 2. Copy the `.cursor/` folder into your project root
 3. Type `/` in Cursor's chat to see available commands
+4. Run commands in pipeline order for a full feature flow, or pick any command individually
