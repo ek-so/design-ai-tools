@@ -5,7 +5,7 @@
 Commands form a feature pipeline — each step feeds into the next. Every predecessor is optional input (except `/code-execute`, which requires a plan), so each command also works standalone.
 
 ```
-/explore → /one-pager → /critique → /code-explore → /code-plan → /code-execute → /code-review → /code-review-peer
+/explore → /one-pager → /critique → /code-explore → /code-plan → /code-execute → /code-review → /code-review-peer → /document
 ```
 
 ## All commands
@@ -20,13 +20,13 @@ Commands form a feature pipeline — each step feeds into the next. Every predec
 | `/code-execute` | Agent | Implements the plan step by step, updating the tracking document as it goes. |
 | `/code-review` | Ask | Thorough code review focused on production readiness and security. |
 | `/code-review-peer` | Ask | Evaluates peer review findings — verifies each against real code, separates signal from noise. |
+| `/document` | Agent | Updates documentation after code changes. Reads actual code, never trusts existing docs. |
 
 **Standalone (not part of the pipeline):**
 
 | Command | Mode | Description |
 |---------|------|-------------|
 | `/code-explain` | Ask | Three-level explanation (core concept, how it works, deep dive) for a technical PM audience. |
-| `/document` | Agent | Updates documentation after code changes. Reads actual code, never trusts existing docs. |
 
 ## How to create a good command?
 - 2500 characters max (including spaces and formatting)

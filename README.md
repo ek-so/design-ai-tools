@@ -11,14 +11,14 @@ Reusable AI workflows you invoke with `/command-name` in Cursor's chat. See the 
 Commands are designed as a **pipeline** — each step feeds into the next, taking you from idea to shipped, reviewed code:
 
 ```
-/explore → /one-pager → /critique → /code-explore → /code-plan → /code-execute → /code-review → /code-review-peer
+/explore → /one-pager → /critique → /code-explore → /code-plan → /code-execute → /code-review → /code-review-peer → /document
 ```
 
 Every predecessor is optional input, so each command also works standalone. The only hard dependency is `/code-execute`, which requires a plan from `/code-plan`.
 
 **Product commands:** `/explore`, `/one-pager`, `/critique`
-**Code commands:** `/code-explore`, `/code-plan`, `/code-execute`, `/code-review`, `/code-review-peer`
-**Standalone:** `/code-explain` (learning), `/document` (docs update)
+**Code commands:** `/code-explore`, `/code-plan`, `/code-execute`, `/code-review`, `/code-review-peer`, `/document`
+**Standalone:** `/code-explain` (learning)
 
 ### Rules (`.cursor/rules/`)
 Persistent AI guidelines applied automatically. Currently includes a general tone rule (be direct, push back, cite sources).

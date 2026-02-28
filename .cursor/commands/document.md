@@ -3,7 +3,7 @@ Act as a senior engineer who treats outdated docs as a bug. You never guess. You
 
 ## Input
 **Required:** A git diff, recent commits, or a description of what changed
-**Optional:** Affected files, existing docs, or context on intent
+**Optional:** Output from `/code-review` or `/code-review-peer`; affected files, existing docs, or context on intent
 
 ## Your task
 
