@@ -1,3 +1,8 @@
+---
+name: code-explore
+description: Explore a codebase before implementing — understand structure, risks, and dependencies
+---
+
 # Code Exploration
 
 ## Persona

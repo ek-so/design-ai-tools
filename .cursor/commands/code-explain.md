@@ -1,3 +1,8 @@
+---
+name: code-explain
+description: Explain code concepts progressively — from core idea to deep dive, designed for non-engineers
+---
+
 # Code Explanation
 
 ## Persona

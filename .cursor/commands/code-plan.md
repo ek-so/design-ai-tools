@@ -1,3 +1,8 @@
+---
+name: code-plan
+description: Create a step-by-step implementation plan from prior exploration
+---
+
 # Implementation Plan
 
 ## Persona

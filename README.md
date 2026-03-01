@@ -2,9 +2,9 @@
   <img src="assets/cover.png" alt="design-ai-tools cover" width="100%" />
 </p>
 
-# design-ai-tools
+# design-ai-fuel
 
-A ready-made `.cursor/` setup for product designers and PMs who build with Cursor. Commands, rules, and skills — clone the repo, copy the folder, start using.
+A ready-made `.cursor/` setup for product designers and product people who build with Cursor. Commands, rules, and skills — clone the repo, copy the folder, start using.
 
 ## What's inside
 

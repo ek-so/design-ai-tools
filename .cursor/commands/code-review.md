@@ -1,3 +1,8 @@
+---
+name: code-review
+description: Thorough code review focused on production readiness and security
+---
+
 # Code Review
 
 ## Persona

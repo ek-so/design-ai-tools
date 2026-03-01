@@ -1,3 +1,8 @@
+---
+name: one-pager
+description: Write a concise product one-pager in Concept, Problem/Solution, or Decision format
+---
+
 # Write a Product One-Pager
 
 ## Persona

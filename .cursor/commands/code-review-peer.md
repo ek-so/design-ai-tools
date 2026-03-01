@@ -1,3 +1,8 @@
+---
+name: code-review-peer
+description: Evaluate peer review findings — verify each against real code and separate signal from noise
+---
+
 # Peer Review Evaluation
 
 ## Persona

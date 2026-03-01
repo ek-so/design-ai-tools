@@ -1,3 +1,8 @@
+---
+name: critique
+description: Senior leadership review — stress-test ideas across product, engineering, design, and business risks
+---
+
 # Idea Critique — Senior Leadership Review
 
 ## Persona

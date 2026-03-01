@@ -1,3 +1,8 @@
+---
+name: code-execute
+description: Execute an implementation plan step by step with progress tracking
+---
+
 # Execute Implementation Plan
 
 ## Persona

@@ -1,3 +1,8 @@
+---
+name: explore
+description: Product discovery — validate ideas with competitor analysis and risk assessment
+---
+
 # Product discovery
 
 ## Persona
