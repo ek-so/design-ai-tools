@@ -27,7 +27,7 @@ Specialized subagents that run in parallel or get auto-delegated by the parent a
 `/verifier`, `/security-reviewer`, `/test-runner`, `/researcher`
 
 ### Rules (`.cursor/rules/`)
-Persistent AI guidelines applied automatically or based on a certain condition.
+Persistent AI guidelines applied automatically or based on a certain condition. See the [full glossary](.cursor/rules/README.md).
 
 ### Skills (`.cursor/skills/`)
 Specialized agent capabilities that commands can reference for domain-specific methodology. See the [full glossary](.cursor/skills/README.md).
