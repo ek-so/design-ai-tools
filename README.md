@@ -37,6 +37,8 @@ Specialized agent capabilities that commands can reference for domain-specific m
 1. Download this repo
 2. Copy the `.cursor/` folder into your project root, or any of the subfolders or files separately, if you have a `.cursor/` folder there already
 
+> **Can't see the `.cursor/` folder?** Folders starting with `.` are hidden by default. On Mac, press `⇧⌘.` (Shift + Cmd + dot) in Finder to reveal them.
+
 **Commands** — invoke with `/command-name` in chat. They guide the AI through a structured task with a defined persona, steps, and output format.
 
 **Skills** — domain knowledge that commands or agents reference for methodology. A command like `/create-presentation` pulls in the `presentation` skill automatically. You can also reference a skill manually (e.g. `@.cursor/skills/presentation.md`).
